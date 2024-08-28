@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code-Monk</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="container">
+   
+    <div class="grid">
+        <div class="textarea-container">
+            <textarea id="inputBox" placeholder="Type something here..."></textarea>
+            <div id="cursor" class="cursor"></div>
+        </div>
+        <div>
+            <button class="btn2 green" id="toggleRecordingButton">Start Recording</button>
+            <button class="btn1" id="replayButton">Replay</button>
+            <button class="btn1" id="clear">Clear Input</button>
+            <button class="btn3" id="adddummy">Add dummy text</button>
+            <div class="flex1 margin">
+                <button class="speed-button" id="spbtn" data-speed="0.5">0.5x</button>
+                <button class="speed-button selected" id="spbtn1" data-speed="1.5">1.5x</button>
+                <button class="speed-button" id="spbtn2" data-speed="2">2x</button>
+            </div>
+        </div>
+        <div id="status" class="flex1">
+            <div class="text">Status :</div>
+            <div id="act" class="inner"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

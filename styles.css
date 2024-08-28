@@ -1,0 +1,86 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.flex1 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.margin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn1 {
+    width: 100px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.btn2 {
+    width: 130px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.btn3 {
+    width: 150px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+textarea {
+    width: 550px;
+    height: 150px;
+    font-family: monospace;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.text {
+    font-size: xx-large;
+    color: rgb(201, 253, 13);
+    font-weight: 400;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    align-items: center;
+    background-color: gray;
+}
+
+.speed-button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.inner {
+    color: rgb(241, 223, 223);
+    font-size: x-large;
+}
+
+.selected {
+    background-color: blue;
+    color: white;
+}
