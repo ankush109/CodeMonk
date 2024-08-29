@@ -114,7 +114,7 @@ speedButtons.forEach((button) => {
 
     this.classList.add("selected");
 
-    selectedSpeed = parseInt(this.getAttribute("data-speed"));
+    selectedSpeed = parseFloat(this.getAttribute("data-speed"));
 
     replay();
   });
